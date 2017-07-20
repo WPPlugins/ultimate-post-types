@@ -1,0 +1,858 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ultimate Post Types\n"
+"POT-Creation-Date: 2014-09-07 12:52+0100\n"
+"PO-Revision-Date: 2014-09-07 12:52+0100\n"
+"Last-Translator: Radoslav Georgiev <rageorgiev@gmail.com>\n"
+"Language-Team: Ultimate Fields <rageorgiev@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;_x;_n\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../assets/templates/export-default.php:2 ../classes/UPT_Post_Type.php:103
+msgid "Export"
+msgstr ""
+
+#: ../assets/templates/export-default.php:7
+msgid ""
+"You can export the PHP code for a post type or taxonomy. Please go to the "
+"appropriate listing and click the <b>Export to PHP</b> link"
+msgstr ""
+
+#: ../assets/templates/export-default.php:13
+#, php-format
+msgid ""
+"You can export post types and taxonomies by using the WordPress <a href=\"%s"
+"\">Export</a> tool. The generated XML file can be imported on another site "
+"through the Import tool, just like a standard posts XML file."
+msgstr ""
+
+#: ../assets/templates/export-default.php:14
+#, php-format
+msgid ""
+"To see how this works, you can read the <a href=\"%s\">Tools Export Screen</"
+"a> article at WordPress.org"
+msgstr ""
+
+#: ../assets/templates/export-post-type.php:4
+#: ../assets/templates/export-taxonomy.php:4
+#, php-format
+msgid "Export \"%s\" to PHP"
+msgstr ""
+
+#: ../assets/templates/export-post-type.php:9
+#: ../assets/templates/export-taxonomy.php:9
+msgid "Instructions"
+msgstr ""
+
+#: ../assets/templates/export-post-type.php:12
+#: ../assets/templates/export-taxonomy.php:12
+msgid ""
+"You can export post types and taxonomies to PHP code and add them to your "
+"theme&apos;s or plugin&apos;s files."
+msgstr ""
+
+#: ../assets/templates/export-post-type.php:16
+#: ../assets/templates/export-taxonomy.php:16
+msgid ""
+"When a post type or taxonomy is exported this way, it will not appear in the "
+"list, here in the admin."
+msgstr ""
+
+#: ../assets/templates/export-post-type.php:18
+#: ../assets/templates/export-taxonomy.php:18
+msgid "Even if you see the old one, the exported one will overwrite it."
+msgstr ""
+
+#: ../assets/templates/export-post-type.php:22
+#: ../assets/templates/export-taxonomy.php:22
+msgid ""
+"The code can be added anywhere in your files, just make sure it is done "
+"before the <strong>init</strong> hook."
+msgstr ""
+
+#: ../assets/templates/export-post-type.php:24
+#: ../assets/templates/export-taxonomy.php:24
+msgid "Adding the code directly to your functions.php works too."
+msgstr ""
+
+#: ../assets/templates/export-post-type.php:26
+#: ../assets/templates/export-taxonomy.php:26
+msgid ""
+"Please keep in mind, that you do not need Ultimate Post Types enabled in "
+"order for this to work."
+msgstr ""
+
+#: ../assets/templates/export-post-type.php:30
+#: ../assets/templates/export-taxonomy.php:30
+msgid ""
+"You only need Ultimate Fields enabled and that&apos;s only in case you have "
+"custom fields assigned to the post type."
+msgstr ""
+
+#: ../assets/templates/export-post-type.php:65
+#: ../assets/templates/export-taxonomy.php:66
+#: ../classes/UPT_Custom_Post_Type.php:217
+#: ../classes/UPT_Custom_Taxonomy.php:165
+#, php-format
+msgid "%s Settings"
+msgstr ""
+
+#: ../classes/UPT_Custom_Post_Type.php:121
+#: ../classes/UPT_Custom_Post_Type.php:122
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../classes/UPT_Custom_Post_Type.php:123
+#: ../classes/UPT_Custom_Post_Type.php:124
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: ../classes/UPT_Custom_Post_Type.php:125
+#: ../classes/UPT_Custom_Taxonomy.php:100
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: ../classes/UPT_Custom_Post_Type.php:126
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: ../classes/UPT_Custom_Post_Type.php:127
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: ../classes/UPT_Custom_Post_Type.php:128
+#: ../classes/UPT_Custom_Taxonomy.php:99
+#, php-format
+msgid "Search %s"
+msgstr ""
+
+#: ../classes/UPT_Custom_Post_Type.php:129
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: ../classes/UPT_Custom_Post_Type.php:130
+#, php-format
+msgid "No %s found in Trash"
+msgstr ""
+
+#: ../classes/UPT_Custom_Post_Type.php:131
+#, php-format
+msgid "Parent %s:"
+msgstr ""
+
+#: ../classes/UPT_Custom_Taxonomy.php:96
+#, php-format
+msgid "Popular %s"
+msgstr ""
+
+#: ../classes/UPT_Custom_Taxonomy.php:97
+#, php-format
+msgid "All %s"
+msgstr ""
+
+#: ../classes/UPT_Custom_Taxonomy.php:98
+#, php-format
+msgid "Update %s"
+msgstr ""
+
+#: ../classes/UPT_Custom_Taxonomy.php:101
+#, php-format
+msgid "Add New %s"
+msgstr ""
+
+#: ../classes/UPT_Custom_Taxonomy.php:102
+#, php-format
+msgid "New %s Name"
+msgstr ""
+
+#: ../classes/UPT_Custom_Taxonomy.php:103
+#, php-format
+msgid "Separate %s with commas"
+msgstr ""
+
+#: ../classes/UPT_Custom_Taxonomy.php:104
+#, php-format
+msgid "Add or remove %s"
+msgstr ""
+
+#: ../classes/UPT_Custom_Taxonomy.php:105
+#, php-format
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: ../classes/UPT_Custom_Taxonomy.php:106
+#, php-format
+msgid "No %s found."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:39 ../classes/UPT_Editable_Base.php:41
+msgid "Post Type Settings"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:45
+msgid "Use the post template."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:46
+msgid "Use the default page template."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:50
+#, php-format
+msgid "Use the &quot;%s&quot; page template."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:54 ../classes/UPT_Editable_Base.php:184
+#: ../classes/UPT_Taxonomy.php:120 ../classes/UPT_Taxonomy.php:192
+msgid "Slug"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:55
+msgid ""
+"This slug will be used when quierying posts from the post type or in URLs by "
+"default. It must be unique and not among the reserved <a href=\"http://codex."
+"wordpress.org/Function_Reference/register_post_type#Reserved_Post_Types"
+"\">post types</a>. Please use only lowercase letters, dashes and numbers!"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:57 ../classes/UPT_Taxonomy.php:123
+msgid "Plural Name"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:58
+msgid "This is plural name of the post type (e.g. Pages)."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:59 ../classes/UPT_Taxonomy.php:125
+msgid "Singular Name"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:60
+msgid "This is the singular name of the post type (e.g. Page)."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:61
+msgid "Fine tune"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:63
+msgid ""
+"All other labels for the post type are generated automatically by using the "
+"&quot;Name&quot; &amp; &quot;Singular Name&quot; fields&apos; values. If you "
+"want to change a detail in those labels, check this."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:65
+msgid "Add New"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:66
+msgid "The label for adding in the post type&apos;s section (e.g. Add Page)."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:68 ../classes/UPT_Taxonomy.php:133
+msgid "Add New Item"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:69 ../classes/UPT_Taxonomy.php:134
+msgid ""
+"The adding label that will appear in other places of the admin/front end. (e."
+"g. Add New Page)."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:71 ../classes/UPT_Taxonomy.php:136
+msgid "Edit Item"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:72 ../classes/UPT_Taxonomy.php:137
+msgid "The Edit Item label (e.g. Edit Page)."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:74
+msgid "New Item"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:75
+msgid "The New Item label (e.g. New Page)."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:77
+msgid "View Item"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:78
+msgid "The View Item label (e.g. View Page)."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:80 ../classes/UPT_Taxonomy.php:139
+msgid "Search Items"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:81 ../classes/UPT_Taxonomy.php:140
+msgid "The Search Items label (e.g. Search Pages)."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:83 ../classes/UPT_Taxonomy.php:142
+msgid "Not Found"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:84 ../classes/UPT_Taxonomy.php:143
+msgid "The Not Found label (e.g. No Pages found)."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:86
+msgid "Not Found In Trash"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:87
+msgid "The Not Found In Trash label (e.g. No Pages found in Trash)."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:89 ../classes/UPT_Taxonomy.php:145
+msgid "Parent Item Colon"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:90 ../classes/UPT_Taxonomy.php:146
+msgid "The Parent Item Colon label (e.g. Parent Page)."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:92 ../classes/UPT_Taxonomy.php:166
+msgid "Slug &amp; Labels"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:95 ../classes/UPT_Taxonomy.php:169
+msgid "Hierarchical"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:97
+msgid ""
+"Allows Parent to be specified. In the &apos;supports&apos; tab, please check "
+"&apos;page-attributes&apos; to show the parent select box on the editor page."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:98 ../classes/UPT_Taxonomy.php:172
+msgid "Public"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:100 ../classes/UPT_Taxonomy.php:174
+msgid "Controls how the type is visible to authors and readers."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:101
+msgid "Show In Menu"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:103
+msgid "Whether to show the post type in the admin menu."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:104
+msgid "Advanced Settings"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:105
+msgid ""
+"Please don&apos; edit those settings unless you really know what you are "
+"doing!"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:106 ../classes/UPT_Taxonomy.php:175
+msgid "Show UI"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:108
+msgid ""
+"Whether to generate a default UI for managing this post type in the admin."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:109
+msgid "Show In Admin Bar"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:111
+msgid "Whether to make this post type available in the WordPress admin bar."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:112 ../classes/UPT_Taxonomy.php:178
+msgid "Show In Nav Menus"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:115
+msgid "Whether post_type is available for selection in navigation menus."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:116
+msgid "Publicly Queryable"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:119
+msgid "Whether queries can be performed on the front end."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:120
+msgid "Exclude from Search"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:123
+msgid ""
+"Whether to exclude posts with this post type from front end search results."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:124
+msgid "Has Archive"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:127
+msgid "Enables post type archives."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:128
+msgid "Can Export"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:130
+msgid "Can this post type be exported."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:131 ../classes/UPT_Taxonomy.php:186
+msgid "General Settings"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:134
+msgid "Title"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:135
+msgid "Allow the post type posts to have a title."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:137
+msgid "Editor"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:138
+msgid ""
+"Allow the post type posts to have content, entered through the TinyMCE "
+"(WYSIWYG) editor."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:140
+msgid "Author"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:141
+msgid "Allow administrators to choose who is the author of the current post."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:142
+msgid "Thumbnail"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:143
+msgid ""
+"Allow setting a featured image to the post. <strong>Please</strong> be sure "
+"that your theme supprts <strong>post-thumbnails</strong>"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:145
+msgid "Excerpt"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:146
+msgid ""
+"The WordPress Excerpt is an optional summary or description of a post; in "
+"short, a post summary"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:148
+msgid "Trackbacks"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:149
+msgid "A trackback is a way of cross referencing two blog posts. "
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:151
+msgid "Custom Fields"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:152
+msgid ""
+"Allow managing custom fields by the default WordPress way. If you are "
+"planning to add fields generated by Ultimate Fields, you will prefer to "
+"leave this unchecked!"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:154
+msgid "Comments"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:157
+msgid "Revisions"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:158
+msgid "Allow the storing of revisions"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:160
+msgid "Page Attributes"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:161
+msgid ""
+"Display a box that contains the menu order field, or parent option for "
+"hierarchical post types."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:163
+msgid "Post Formats"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:164
+msgid ""
+"Allow the post type to have formats like video, photo, quote, etc. Select "
+"the formats in the next field."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:166
+msgid "Supported Formats"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:168
+msgid "Aside"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:169
+msgid "Audio"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:170
+msgid "Chat"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:171
+msgid "Gallery"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:172
+msgid "Image"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:173
+msgid "Link"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:174
+msgid "Quote"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:175
+msgid "Status"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:176
+msgid "Video"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:179
+msgid "Supports"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:182 ../classes/UPT_Taxonomy.php:190
+msgid "Enable URL rewrite"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:185
+msgid "Customize the permalink structure slug, ex. <strong>books</strong>/"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:186 ../classes/UPT_Taxonomy.php:194
+msgid "With Front"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:187
+msgid "Include the blog base for the URLs of this post type."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:189
+msgid "Feeds"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:190
+msgid "Should a feed permalink structure be built for this post type."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:192
+msgid "Pages"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:193
+msgid "Should the permalink structure provide for pagination."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:195 ../classes/UPT_Taxonomy.php:197
+msgid "URLs"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:200 ../classes/UPT_Taxonomy.php:215
+msgid "Fields"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:203
+msgid "Template Type"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:205
+msgid "Before Content"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:206
+msgid "After Content"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:207
+msgid ""
+"This content will be displayed before/after the content of the post type, in "
+"the template that is selected above. You can use shorcodes like [uf key="
+"\"meta_key\"] to display values that are associated with the current post "
+"type in order to create a template for it. <strong>meta_key</strong> is the "
+"key of the field as created int the <strong>Fields</strong> tab."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:208
+msgid "Appearance"
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:257
+msgid "Post type saved."
+msgstr ""
+
+#: ../classes/UPT_Editable_Base.php:324
+msgid "Export PHP code"
+msgstr ""
+
+#: ../classes/UPT_Post_Type.php:46 ../classes/UPT_Post_Type.php:57
+#: ../classes/UPT_Taxonomy.php:127
+msgid "Post Types"
+msgstr ""
+
+#: ../classes/UPT_Post_Type.php:47
+msgid "Post Type"
+msgstr ""
+
+#: ../classes/UPT_Post_Type.php:48 ../classes/UPT_Post_Type.php:49
+msgid "Add Post Type"
+msgstr ""
+
+#: ../classes/UPT_Post_Type.php:50
+msgid "Edit Post Type"
+msgstr ""
+
+#: ../classes/UPT_Post_Type.php:51
+msgid "New Post Type"
+msgstr ""
+
+#: ../classes/UPT_Post_Type.php:52
+msgid "View Post Type"
+msgstr ""
+
+#: ../classes/UPT_Post_Type.php:53
+msgid "Search Post Types"
+msgstr ""
+
+#: ../classes/UPT_Post_Type.php:54
+msgid "No Post Types found"
+msgstr ""
+
+#: ../classes/UPT_Post_Type.php:55
+msgid "No Post Types found in Trash"
+msgstr ""
+
+#: ../classes/UPT_Post_Type.php:56
+msgid "Parent Post Type:"
+msgstr ""
+
+#: ../classes/UPT_Post_Type.php:94 ../classes/UPT_Taxonomy.php:89
+msgid "Save"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:41 ../classes/UPT_Taxonomy.php:52
+msgid "Taxonomies"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:42
+msgid "Taxonomy"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:43 ../classes/UPT_Taxonomy.php:44
+msgid "Add Taxonomy"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:45
+msgid "Edit Taxonomy"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:46
+msgid "New Taxonomy"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:47
+msgid "View Taxonomy"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:48
+msgid "Search Taxonomies"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:49
+msgid "No Taxonomies found"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:50
+msgid "No Taxonomies found in Trash"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:51
+msgid "Parent Taxonomy:"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:101 ../classes/UPT_Taxonomy.php:103
+msgid "Taxonomy Settings"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:121
+msgid ""
+"This slug will be used when quierying posts from the post type or in URLs by "
+"default. Please use only lowercase letters, dashes and numbers!"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:124
+msgid "This is plural name of the taxonomy (e.g. Categories)."
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:126
+msgid "This is the singular name of the taxonomy (e.g. Category)."
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:129
+msgid "The taxonomy will be associated with those post types."
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:130
+msgid "Fine tune labels"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:132
+msgid ""
+"All other labels for the taxonomy are generated automatically by using the "
+"&quot;Name&quot; &amp; &quot;Singular Name&quot; fields&apos; values. If you "
+"want to change a detail in those labels, check this."
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:148
+msgid "Popular Items"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:149
+msgid "Popular Writers"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:151
+msgid "All Items"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:152
+msgid "All Writers"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:154
+msgid "New Item Name"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:155
+msgid "New Writer Name"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:157
+msgid "Separate Items With Commas"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:158
+msgid "Separate writers with commas"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:160
+msgid "Add Or Remove Items"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:161
+msgid "Add or remove writers"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:163
+msgid "Choose From Most Used"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:164
+msgid "Choose from the most used writers"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:171
+msgid ""
+"Allows Parent to be specified. Also, non-hierarchical taxonomies work like "
+"tags, meaning that on post type screens the user has to manually enter terms "
+"manually."
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:177
+msgid ""
+"Whether to generate a default UI for managing this taxonomy in the admin."
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:181
+msgid "Whether the taxonomy is available for selection in navigation menus."
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:182
+msgid "Show admin column"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:185
+msgid "Show the taxonomy terms in the post type listing."
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:193
+msgid "Customize the permalink structure slug, ex. <strong>genre</strong>/"
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:195
+msgid "Include the blog base for the URLs of this taxonomy."
+msgstr ""
+
+#: ../classes/UPT_Taxonomy.php:233
+msgid "Taxonomy saved."
+msgstr ""
+
+#: ../ultimate-post-types.php:21
+msgid ""
+"The Ultimate Post Types plugin is active, but it will not work until it&apos;"
+"s dependency &quot;Ultimate Fields&quot; is active too. Please <a href="
+"\"plugin-install.php?tab=plugin-information&plugin=ultimate-"
+"fields&TB_iframe=true&width=830&height=880\" class=\"thickbox\">install "
+"Ultimate Fields</a>."
+msgstr ""
